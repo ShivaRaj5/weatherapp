@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    /* width: 100vh; */
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.cardClass h1{
+    font-size: 35px;
+}
+.cardClass button{
+    border-radius: 10px;
+    background-color: #e7e1e1;
+    border: none;
+    padding: 3px 10px;
+    /* text-shadow: 5px 5px gray; */
+    box-shadow: 3px 3px 10px gray;
+    margin-top: 20px;
+    outline: none;
+    font-weight: bold;
+}
+#carouselExampleInterval{
+    width: 400px;
+    height: 300px;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-left: 50px;
+}
+#carouselExampleInterval img{
+    width: 400px;
+    height: 300px;
+    /* margin-left: 20px; */
+}
+.tempContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 18vh;
+    border: none;
+    outline: none;
+}
+.tempContainer img{
+    width: 50px;
+    height: 70px;
+    border: none;
+    outline: none;
+}
+.inputContainer{
+    /* margin-top: 10px; */
+    width: 1000px;
+    margin: auto;
+    /* border: 2px solid black; */
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 10px; */
+}
+.inputContainer input{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 55px;
+    width: 900px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.inputContainer button{
+    border: none;
+    height: 45px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: -105px;
+}
+.cardCls{
+    padding-top: 30px;
+    /* margin-top: 30px; */
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 350px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.dayDate{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(17, 16, 16);
+}
