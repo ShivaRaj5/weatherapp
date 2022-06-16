@@ -24,7 +24,7 @@ app.get('/weather',(req,res)=>{
 
 app.get('*',(req,res)=>{
     res.render('errorpage',{
-        msg:"Please press back button to go to homepage"
+        msg:"Please press back button to go to home"
     })
 })
 
